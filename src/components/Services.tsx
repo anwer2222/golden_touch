@@ -120,14 +120,15 @@ const Services = () => {
           <Tabs
             defaultValue="installation"
             onValueChange={(value) => setActiveTab(value)}
-            className="flex flex-col xl:flex-row w-full gap-7.5"
+            className="flex flex-col xl:flex-row w-full gap-y-100 md:gap-0"
           >
-            <TabsList className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-1 gap-7.5 h-full w-full xl:w-100 rounded-none p-0 bg-transparent">
+            <TabsList className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-1 gap-3 md:gap-7.5 md:h-full w-full xl:w-100 rounded-none p-0 bg-transparent">
               {serviceData.map((item) => (
                 <TabsTrigger
                   key={item.name}
                   value={item.name}
-                  className="w-full rounded-none h-25 flex items-center relative shadow-sm bg-card p-0 outline-none data-[state=active]:ring-2 ring-accent"
+                  // Added 'border-b xl:border-b-0' so they have a line between them on mobile since they now touch
+                  className="w-full rounded-none h-25 flex items-center relative shadow-sm bg-card p-0 outline-none border-b border-border/10 last:border-none xl:border-none data-[state=active]:ring-2 ring-accent"
                 >
                   <div
                     className={`w-25 h-25 flex items-center justify-center absolute left-0 transition-colors duration-300 ${
