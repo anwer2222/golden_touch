@@ -1,23 +1,35 @@
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import Pillars from '@/components/Pillars'
-import Services from '@/components/Services'
-import Gallery from '@/components/Gallery'
-import Contact from '@/components/Contact'
-import Footer from '@/components/Footer'
+import React from "react";
+import About from "@/components/About";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
+import Topbar from "@/components/Topbar";
+import Content from "@/components/Content";
+import Footer from "@/components/Footer";
+import Stats from "@/components/Stats";
+import Work from "@/components/Work";
+import Faq from "@/components/Faq";
+import Projects from "@/components/Projects";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col">
-      <Header />
-      <main className="max-w-6xl mx-auto px-6 py-10">
-        <Hero />
-        <Pillars />
-        <Services />
-        <Gallery />
-        <Contact />
-      </main>
-      <Footer />
+const Home = () => {
+  return(
+    <div className="bg-background">
+      <Topbar/>
+      <Header/>
+      <Hero/>
+      <About/>
+      <Stats/>
+      <Services/>
+      <Work/>
+      <Projects/>
+      <Testimonials/>
+      <Faq/>
+      <Content/>
+      <Footer/>
+
     </div>
   )
 }
+
+export default Home
