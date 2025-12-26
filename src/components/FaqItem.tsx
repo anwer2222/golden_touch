@@ -16,7 +16,7 @@ const FaqItem = ({ title, description }: FaqItemData) => {
         <h4 className="h4 text-lg md:text-xl font-medium text-foreground group-hover:text-primary transition-colors">
           {title}
         </h4>
-        <div className="w-[32px] h-[32px] bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent transition-colors">
+        <div className="w-8 h-8 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent transition-colors">
             {isOpen ? (
                 <RiSubtractFill className="text-primary text-xl" />
             ) : (

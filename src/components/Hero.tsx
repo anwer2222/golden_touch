@@ -6,7 +6,7 @@ import { fadeIn } from "@/../public/assets/variants";
 
 const Hero = () => {
   return (
-    <section className="h-[70vh] bg-[url('/assets/img/hero/bg.jpg')] bg-no-repeat bg-cover bg-center relative">
+    <section className="h-[70vh] bg-hero bg-no-repeat bg-cover bg-center relative">
       {/* Overlay using 'background' variable logic if needed, but keeping gradient for visibility */}
       <div className="absolute inset-0 bg-linear-to-l from-background/0 via-background/50 to-background/70 z-10"></div>
       

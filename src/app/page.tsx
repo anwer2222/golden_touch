@@ -14,7 +14,7 @@ import Projects from "@/components/Projects";
 
 const Home = () => {
   return(
-    <div className="bg-background">
+    <div className="bg-background w-full overflow-x-hidden">
       <Topbar/>
       <Header/>
       <Hero/>
