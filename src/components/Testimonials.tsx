@@ -43,7 +43,7 @@ const Testimonials = () => {
                 src="/assets/img/testimonials/img.jpg"
                 fill
                 className="object-cover"
-                quality={100}
+                quality={75}
                 alt="Office Installation Project"
               />
             </div>

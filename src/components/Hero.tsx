@@ -36,7 +36,7 @@ const Hero = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.8 }}
-            className="h1 text-chart-4 mb-4"
+            className="h1 text-chart-4 mb-4 text-2xl"
           >
             <span className="text-chart-1 font-bold">Precision</span> Installation For Pre-Designed Environments
           </motion.h1>
@@ -46,7 +46,7 @@ const Hero = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.8 }}
-            className="mb-9 text-primary-foreground font-medium max-w-120"
+            className="mb-9 text-primary-foreground text-2xl max-w-120"
           >
             Every project receives our tailored approach and that signature golden touch. 
             We listen first, measure accurately, and install with intention.

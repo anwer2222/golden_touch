@@ -36,7 +36,7 @@ const Content = () => {
                       Email
                     </h5>
                     <p className="mb-2 text-muted-foreground">Drop us a line</p>
-                    <p className="font-semibold text-primary">hello@goldentouch.com</p>
+                    <p className="font-semibold text-primary">info@goldentouchinteriors.ca</p>
                   </div>
                 </div>
                 
@@ -47,8 +47,8 @@ const Content = () => {
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2 text-card-foreground">
                       Office
                     </h5>
-                    <p className="mb-2 text-muted-foreground">Visit our showroom</p>
-                    <p className="font-semibold text-primary">123 Design District, Thunder Bay, CA</p>
+                    <p className="mb-2 text-muted-foreground">Our main office</p>
+                    <p className="font-semibold text-primary">360 Lisgar, Ottawa, CA</p>
                   </div>
                 </div>
 
@@ -60,7 +60,7 @@ const Content = () => {
                       Phone
                     </h5>
                     <p className="mb-2 text-muted-foreground">Mon-Fri from 9am to 6pm</p>
-                    <p className="font-semibold text-primary">+1 (555) 123-0000</p>
+                    <p className="font-semibold text-primary">+1 (613) 913-4264</p>
                   </div>
                 </div>
               <Socials containerStyles="flex gap-[40px] mt-8" iconStyles="text-muted-foreground hover:text-accent transition-all text-4xl size-24" />

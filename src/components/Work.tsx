@@ -69,7 +69,7 @@ const Work = () => {
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               alt={item.name}
-              quality={100}
+              quality={75}
             />
             {/* Hover Overlay */}
             <div className="w-[90%] bg-card/95 absolute bottom-4 flex justify-between items-center p-4 rounded-md translate-y-[120%] group-hover:translate-y-0 transition-transform duration-500 shadow-lg">

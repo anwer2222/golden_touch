@@ -16,6 +16,10 @@ const faqItemsData: FaqItemData[] = [
     description: "Yes. Our 'Service with Precision' philosophy means we leave your space spotless. We remove all packaging, debris, and ensure the furniture is ready for immediate use.",
   },
   {
+    title: "What areas do you serve?",
+    description: "We provide installation services across Ottawa, ON, including surrounding cities and commercial districts. If you're unsure whether your location is covered, feel free to contact us.",
+  },
+  {
     title: "Can you work outside of business hours?",
     description: "We understand that business continuity is vital. We offer flexible scheduling, including evenings and weekends, to minimize disruption to your workflow.",
   },
@@ -25,7 +29,7 @@ const faqItemsData: FaqItemData[] = [
   },
   {
     title: "What types of modular systems do you install?",
-    description: "We are experienced with all major office furniture brands and modular systems, including cubicles, glass partitions, executive desks, and ergonomic workstations.",
+    description: "We are experienced with all major wall system brand and office furniture, including cubicles, glass partitions, executive desks, and ergonomic workstations.",
   },
 ];
 

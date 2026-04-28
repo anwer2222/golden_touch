@@ -13,13 +13,13 @@ const Topbar = () => {
             {/* Phone */}
             <div className="flex items-center gap-2">
               <RiPhoneFill className="text-lg" />
-              <p className="font-medium text-sm">+1 (555) 123-0000</p>
+              <p className="font-medium text-sm">+1 (613) 913-4264</p>
             </div>
 
             {/* Email */}
             <div className="flex items-center gap-2">
               <RiMailFill className="text-lg" />
-              <p className="font-medium text-sm">hello@goldentouch.com</p>
+              <p className="font-medium text-sm">info@goldentouchinteriors.ca</p>
             </div>
 
             {/* Hours (New addition for context) */}

@@ -178,6 +178,7 @@
 
 body {
   font-family: "Oswald", Helvetica, sans-serif;
+  background-image:"url('/assets/img/hero/bg.jpg')",
 }
 
 @layer base {

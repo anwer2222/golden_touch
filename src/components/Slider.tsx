@@ -22,7 +22,7 @@ const Slider = () => {
               src="/assets/img/testimonials/avatar-1.jpg"
               fill
               className="object-cover rounded-full border-2 border-accent"
-              quality={100}
+              quality={75}
               alt="Client Avatar"
             />
           </div>
@@ -48,7 +48,7 @@ const Slider = () => {
               src="/assets/img/testimonials/avatar-2.jpg"
               fill
               className="object-cover rounded-full border-2 border-accent"
-              quality={100}
+              quality={75}
               alt="Client Avatar"
             />
           </div>
@@ -74,7 +74,7 @@ const Slider = () => {
               src="/assets/img/testimonials/avatar-3.jpg"
               fill
               className="object-cover rounded-full border-2 border-accent"
-              quality={100}
+              quality={75}
               alt="Client Avatar"
             />
           </div>

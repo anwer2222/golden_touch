@@ -38,11 +38,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4">
                 <RiPhoneFill className="text-accent text-xl" />
-                <p className="text-primary-foreground/80">+1 (555) 123-0000</p>
+                <p className="text-primary-foreground/80">+1 (613) 913-4264</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiMailFill className="text-accent text-xl" />
-                <p className="text-primary-foreground/80">hello@goldentouch.com</p>
+                <p className="text-primary-foreground/80">info@goldentouchinteriors.ca</p>
               </li>
             </ul>
           </div>

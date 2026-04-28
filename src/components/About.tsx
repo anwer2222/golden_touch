@@ -30,7 +30,7 @@ const About = () => {
               
               <div className="w-max flex flex-col text-right mb-10">
                 {/* Replaced signature with text if image missing, or keep image */}
-                <Image src="/assets/img/about/signature.svg" width={154} height={38} alt="Signature" />
+                <Image src="/assets/img/about/sig.jpg" width={154} height={38} alt="Signature" />
                 <p className="mb-5 text-chart-2 font-semibold">Golden Touch Team</p>
               </div>
 
@@ -49,7 +49,7 @@ const About = () => {
             <div className="xl:w-111 xl:h-123.25 relative">
               <div className="hidden xl:flex w-111 h-123.25 bg-accent absolute -top-4 -left-4 -z-10"></div>
               <Image 
-                src={"/assets/img/about/img.jpg"} 
+                src={"/assets/img/about/o_img.jpg"} 
                 width={444} 
                 height={493} 
                 alt="About Golden Touch Interiors"

@@ -20,9 +20,9 @@ const serviceData: ServiceItem[] = [
     name: "installation",
     icon: PiWrenchFill,
     title: "Office Equipment Installation",
-    description: "Professional installation of pre-designed office layouts, furniture, workstations, and modular systems. We handle the full installation with care, efficiency, and technical expertise.",
+    description: "Professional installation of pre-designed office layouts, wall systems, furniture, and workstations. We handle the full installation with care, efficiency, and technical expertise.",
     serviceList: [
-      "Modular Systems",
+      "Wall System",
       "Workstations",
       "Office Furniture",
       "Adaptive Setups",
@@ -74,14 +74,16 @@ const serviceData: ServiceItem[] = [
     name: "others",
     icon: PiGearFill,
     title: "Others",
-    description: "We coordinate delivery, prepare the site, and manage the installation process from start to finish. We ensure minimal disruption to your space.",
+    description: "Additional support services to help you adapt, move, and optimize your office environment.",
     serviceList: [
-      "Project Coordination",
-      "Delivery Management",
-      "Site Preparation",
-      "Timeline Planning",
-      "Safety Compliance",
-      "Final Walkthrough",
+
+        "Office re-location services",
+        "Office re-configuration and layout adjustments",
+        "Dismantling and reassembly of existing furniture",
+        "Furniture removal and disposal",
+        "On-site troubleshooting and adjustments",
+        "Post-installation support and minor repairs"
+
     ],
     thumbs: [
       { url: "/assets/img/services/thumb-7.jpg" },
