@@ -25,7 +25,7 @@ const Topbar = () => {
             {/* Hours (New addition for context) */}
             <div className="flex items-center gap-2">
               <RiTimeFill className="text-lg" />
-              <p className="font-medium text-sm">Mon - Fri: 9:00 AM - 6:00 PM</p>
+              <p className="font-medium text-sm">Mon - Fri: 8:00 AM - 5:00 PM</p>
             </div>
           </div>
 

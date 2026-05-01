@@ -22,7 +22,7 @@ const statsData: StatItem[] = [
     text: "Sq. Ft. Covered",
   },
   {
-    endCountNum: 15,
+    endCountNum: 10,
     endCountText: "+",
     text: "Years of Precision",
   },

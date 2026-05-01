@@ -59,7 +59,7 @@ const Content = () => {
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2 text-card-foreground">
                       Phone
                     </h5>
-                    <p className="mb-2 text-muted-foreground">Mon-Fri from 9am to 6pm</p>
+                    <p className="mb-2 text-muted-foreground">Mon-Fri from 8am to 5pm</p>
                     <p className="font-semibold text-primary">+1 (613) 913-4264</p>
                   </div>
                 </div>

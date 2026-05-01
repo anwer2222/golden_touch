@@ -12,19 +12,19 @@ const workData: WorkItem[] = [
   {
     img: "/assets/img/work/work-1.jpg",
     name: "Corporate HQ",
-    description: "Full Office Installation",
+    description: "Wall System Installation",
     href: "#",
   },
   {
     img: "/assets/img/work/work-2.jpg",
     name: "Tech Hub",
-    description: "Modular Systems Setup",
+    description: "Modular Cubicles Setup",
     href: "#",
   },
   {
     img: "/assets/img/work/work-3.jpg",
     name: "Creative Studio",
-    description: "Adaptive Workstations",
+    description: "Adaptive Within",
     href: "#",
   },
   {

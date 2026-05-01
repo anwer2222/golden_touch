@@ -76,7 +76,7 @@ const Footer = () => {
            <div className="border-t border-white/10 my-4 w-full"></div>
            <div className="flex flex-col xl:flex-row items-center justify-between gap-6">
               <p className="text-primary-foreground/60">
-                Copyright &copy; 2025 Golden Touch Interiors. All rights reserved.
+                Copyright &copy; 2026 Golden Touch Interiors. All rights reserved.
               </p>
               <Socials containerStyles="flex gap-6 text-white" iconStyles="hover:text-accent transition-all text-2xl" />
            </div>
