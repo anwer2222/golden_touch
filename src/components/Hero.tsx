@@ -30,13 +30,13 @@ const Hero = () => {
 </div>
       
       <div className="container mx-auto h-full flex items-center">
-        <div className="z-20 text-foreground text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-160">
+        <div className="z-20 text-foreground text-center xl:text-left mx-auto xl:mx-20 flex flex-col items-center xl:items-start max-w-160">
           <motion.h1
             variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.8 }}
-            className="h1 text-chart-4 mb-4 text-2xl"
+            className="h1 text-chart-4 mb-4 text-2xl "
           >
             <span className="text-chart-1 font-bold">Precision</span> Installation For Pre-Designed Environments
           </motion.h1>

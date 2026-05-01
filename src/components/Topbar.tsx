@@ -7,7 +7,7 @@ const Topbar = () => {
   return (
     <section className="hidden xl:flex py-3 bg-accent text-accent-foreground items-center" id="home">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between  mx-5">
           
           <div className="flex items-center gap-8">
             {/* Phone */}

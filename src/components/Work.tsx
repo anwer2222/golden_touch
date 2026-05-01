@@ -43,11 +43,11 @@ const Work = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className="text-center max-w-135 mx-auto xl:mb-20"
+        className="text-center max-w-120 mx-auto xl:mb-20"
       >
         <Pretitle text="Gallery" center />
         <h2 className="h2 mb-3">Our Craftsmanship</h2>
-        <p className="mb-11 max-w-120 mx-auto text-muted-foreground">
+        <p className="mb-11 max-w-120 text-muted-foreground">
           A selection of completed installations — showcasing our precision and attention to detail.
         </p>
       </motion.div>
@@ -57,12 +57,12 @@ const Work = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 xl:mx-5"
       >
         {workData.map((item, index) => (
           <div
             key={index}
-            className="w-full h-123 relative overflow-hidden group flex justify-center rounded-lg shadow-sm"
+            className=" h-123 relative overflow-hidden group flex justify-center rounded-lg shadow-sm"
           >
             <Image
               src={item.img}

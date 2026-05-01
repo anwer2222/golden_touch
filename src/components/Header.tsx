@@ -14,10 +14,10 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          <Link href="#about" className="text-secondary hover:text-dark">About</Link>
-          <Link href="#services" className="text-secondary hover:text-dark">Services</Link>
-          <Link href="#projects" className="text-secondary hover:text-dark">Gallery</Link>
-          <Link href="#contact" className="text-secondary hover:text-dark">Contact</Link>
+          <Link href="#about" className="text-secondary hover:text-dark text-lg">About</Link>
+          <Link href="#services" className="text-secondary hover:text-dark text-lg">Services</Link>
+          <Link href="#projects" className="text-secondary hover:text-dark text-lg">Gallery</Link>
+          <Link href="#contact" className="text-secondary hover:text-dark text-lg">Contact</Link>
         </nav>
       </div>
     </header>

@@ -96,7 +96,7 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState("installation");
 
   return (
-    <section className="pt-16 xl:pt-32" id="services">
+    <section className="pt-16 xl:pt-32 mx-10" id="services">
       <div className="container mx-auto">
         <motion.div
           variants={fadeIn("up", 0.2)}
