@@ -16,8 +16,11 @@ export const metadata: Metadata = {
   title: "Golden Touch Interiors",
   // description: "Design that feels like home",
   description: "Professional installation of pre-designed office environments, wall systems, and furniture in Ottawa. Delivering service with precision and intention.",
-  keywords: ["Office Installation", "Tekion Installation", "Wall Installation","Ottawa Furniture Assembly", "Wall Systems", "Golden Touch Interiors", "Office Relocation Ottawa"],
+  keywords: ["Office Installation", "Tekion Installation", "Wall Installation","Ottawa Furniture Assembly", "Wall Systems", "Golden Touch Interiors", "Office Relocation Ottawa", "Golden Touch Ottawa"],
   authors: [{ name: "Golden Touch Interiors" }],
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 
